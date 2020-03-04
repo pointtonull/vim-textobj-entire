@@ -19,7 +19,19 @@ vim-textobj-entire provides two text objects:
 
 See also [the reference manual](https://github.com/kana/vim-textobj-entire/blob/master/doc/textobj-entire.txt) for more details.
 
+# Installation
 
+To install using [Vundle](https://github.com/VundleVim/Vundle.vim/blob/master/README.md#about), add these lines to your `.vimrc`:
+```
+Plugin 'kana/vim-textobj-user'
+Plugin 'kana/vim-textobj-entire'
+```
 
+Then run the following in Vim:
+```
+:source %
+:PluginInstall
+Using Vundle it can be installed with:
+```
 
 <!-- vim: set expandtab shiftwidth=4 softtabstop=4 textwidth=78 : -->
